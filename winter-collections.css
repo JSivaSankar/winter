@@ -1,0 +1,621 @@
+body{
+    margin: 40px;
+}
+/* First Header Starts */
+.First_Header{
+    display: grid;
+    border: 1px solid black;
+    background-color:  black;
+    padding: 3px ;
+    color: white;
+   grid-template-columns: 60% 40%;
+    font-size: small;
+    
+    
+}
+.First-header_nav, .First-header_a{
+   
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr) ;   
+    margin-right: 20px; 
+}
+.aligning_in_First_Header{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    margin-top: 20px;
+}
+.option1{
+    background-color: black;
+    border: 1px solid black;
+    color: white; 
+}
+.H_icon1{
+    width: 40px;
+    height: 30px;
+    
+}
+/* First Header Ends */
+
+/* Second Header Starts  */
+.Second_Header{
+    border: 1px solid white;
+    padding: 10px ;
+    display: grid;
+    grid-template-columns:20% 35% 45%;
+}
+#second_headerimg{
+    width: 80%;
+    height: 80%;
+    
+}
+.Second_Header_ul,a{
+    font-size: small;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 5px;
+}
+.Second_Header_ul2,a{
+    display: grid;
+    font-size: small;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.latest_sup{
+    position: relative;
+}
+#sup_hot{
+    position: absolute;
+    bottom: 15px;
+    left: 23px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 6px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-size: x-small;
+    color: white;
+}
+ #searchlist{
+    position: relative;
+    bottom: 10px;
+} 
+#searchicon{
+    position: absolute;
+    left: 120px;
+    bottom: 8px;
+}
+#searchbox{
+    border-radius: 20px;
+    width: 130px;
+    padding: 5px;
+}
+#like_icon{
+    position: relative;
+    bottom: 5px;
+    left: 25px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 7px;
+}
+#cart_icon{
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 7px;
+}
+.like_and_cart_icon_sup{
+    position: absolute;
+    border: 1px solid rgb(35, 106, 238);
+    border-radius: 50%;
+    padding: 1px;
+    background-color: rgb(35, 106, 238);
+    font-size: x-small;
+    color: white;
+    bottom: 20px; 
+}
+button[value="Sign in"]{
+    border: rgba(152, 41, 255, 0.911);
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgba(152, 41, 255, 0.911);
+    color: white;
+}
+/* second header ends here */
+
+/* slide section starts here */
+img[src="./assets/hero/h1_hero.jpg"]{
+    height: 80vh;
+    width: 195vh;
+}
+img[src="./assets/hero/hero_man.png"]{
+    position: absolute;
+    height: 75%;
+    top: 32%;
+    left: 75px;
+}
+.slide_section_font{
+    position: absolute;
+    display: grid ;
+    grid-template-columns: repeat(1,1fr);
+    left: 50%;
+    top: 40%;
+}
+.h3_slide{
+    font-style: oblique;
+    color: rgb(42, 135, 241);
+    position: absolute;   
+}
+.h1_slide{
+    font-size: 70px;
+}
+.p_slide{
+    font-style: italic;
+    color: grey;
+    position: relative;
+    bottom: 70px;
+    font-size: small;
+}
+.button_slide{
+    color: white;
+    border-radius: 20px;
+    background-color:  rgb(42, 135, 241);
+    border:  rgb(42, 135, 241);
+    width: 30%;
+    padding: 10px;
+    position: absolute;
+    bottom: 25px;
+}
+/* slide Section ends here */
+
+/* Shop by category starts here */
+.categori_img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+nav img{
+    width: 100%;
+    height: 273px;
+}
+.categori_imgs{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-right: 10px;
+    margin-left: 40px;
+}
+#cat1,#cat2,#cat3{
+    width: 95%;
+    height: 300px;
+    
+}
+
+/* categori_img_font1 */
+div[id="categori_img_font1"]{
+    position: absolute;
+    top: 930px;
+    left: 340px;
+}
+#categori_img_font1_button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: orange;
+    position: relative;
+    bottom: 15px;
+    border: orange ; 
+}
+#categori_img_font1_h4{
+  color: rgb(42, 135, 241);
+  position: relative;
+  bottom: 47px;
+}
+/* categori_img_font2 */
+div[id="categori_img_font2"]{
+    position: absolute;
+    top: 880px;
+    left: 730px;
+}
+#categori_img_font2_h4{
+  color: rgb(42, 135, 241);
+  position: relative;
+  top: 16px;
+  left: 20px;
+ 
+}
+#categori_img_font2_h3{
+    font-size: x-large;
+}
+#categori_img_font2_p{
+    position: relative;
+    left: 12px;
+    bottom: 10px;
+}
+
+
+/* categori_img_font3  */
+div[id="categori_img_font3"]{
+    position: absolute;
+    top: 930px;
+    left: 1140px;
+}
+#categori_img_font3_button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: orange;
+    position: relative;
+    bottom: 15px;
+    border: orange ; 
+}
+#categori_img_font3_h4{
+  color: rgb(42, 135, 241);
+  position: relative;
+  bottom: 46px;
+}
+#categori_img_font3_h3{
+    font-size: x-large;
+}
+
+/* Shop by category Ends here */
+
+/* Latest_Products_Header */
+.Latest_Products_Header{
+    /* border: 1px unset white;
+    background-color: white; */
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 100px;
+}
+.Latest_Products_Header_li{
+    display: grid ;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    font-style:unset;
+}
+#Latest_Products_Header_li_1{
+    color: red;
+}
+
+/* Latest_Products_items */
+.Latest_Products_imgs{
+display: grid;
+grid-template-columns:repeat(3,1fr);
+margin-right: 120px;
+margin-left: 120px;
+box-sizing: border-box;
+}
+img[alt="product1"], img[alt="product2"], img[alt="product3"], img[alt="product4"],
+img[alt="product5"], img[alt="product6"]{
+    margin: 20px;
+    width: 90%;
+    height: 300px;
+}
+
+section[align="center"]{
+    grid-template-columns: repeat(1,3fr);
+    font-size: small;
+}
+i[id="fa-star_Latest_products"]{
+    color: yellow;
+}
+strike{
+    color: red;
+}
+#new_sup1{
+    position: absolute;
+    top: 1350px;
+    left: 210px;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+}
+#new_sup2{
+    position: absolute;
+    top: 1350px;
+    left: 900px;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+}
+#new_sup3{
+    position: absolute;
+    top: 1735px;
+    left: 910px;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+}
+/* latest Products ends Here */
+
+/* Second Banner Starts Here */
+img[alt="card"]{
+    position: relative;
+    top: 250px;
+    height: 80vh;
+    width: 170vh;
+    
+}
+#center_card{
+    position: relative;
+}
+img[alt="card-man"]{
+    height: 99vh;
+    position: absolute;
+    right: 750px;
+    top: 120px;
+    
+}
+.card_margin{
+    margin: 10px;
+}
+img[ alt="card-shape"]{
+    position: relative; 
+    top: 70px;
+    left: 400px;
+}
+
+#manz{
+    font-family: 'bungee', cursive;
+    font-size: 80px;
+    position: absolute;
+    transform: rotate(270deg);
+    color: whitesmoke;
+    top: 2550px;
+    left: 200px;
+    
+}
+.second_banner_content{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    left: 630px;
+    top: 2450px;
+}
+.second_banner_p1{
+    font-size: xx-large;
+}
+.second_banner_p2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+}
+.second_banner_button{
+    border-radius: 20px;
+    width: 30%;
+    padding: 7px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+/* Second Banner Ends Here */
+
+/* Best Collections Starts here */
+.best_collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 140px;
+}
+#best_collection_part1{
+    grid-template-columns: repeat(1,3fr);
+}
+img[alt="collection2"]{
+    height: 100vh;
+    width: 50vh;
+    position: relative;
+    left: 50px;
+}
+#best_collection_part3{
+    grid-template-columns: 30% 70%;
+    position: relative;
+    left: 100px;
+    top: 80px;
+    border: 1px solid white;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+#collection4{
+    border: ipx solid rgb(42, 135, 241);
+    background-color:  rgb(42, 135, 241);
+    border-radius: 10px;
+    height: 70px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+#best_collection_part1_best{
+    font-size: 40px;
+}
+#best_collection_part1_design{
+    font-family:'Trebuchet MS';
+    position: relative;
+    bottom: 50px;
+}
+#best_collection_part1_button{
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(42, 135, 241);
+    background-color: rgb(42, 135, 241);
+    color: white;
+    font-family:'Trebuchet MS';
+    position: relative;
+    bottom: 40px;
+}
+/* Best COllections Ends here  */
+
+/* Latest offer Starts Here */
+.latest_offer_parent{
+    position: relative;
+}
+img[alt="Offer"]{
+    height: 50vh;
+    width: 170vh;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+img[alt="latest-man"]{
+    height: 45vh;
+    width: 35vh;
+    position: absolute;
+    top: 30px ;
+    left: 110px;
+}
+p[id="offer_news"]{
+    font-size: 40px;
+    position: absolute;
+    bottom: 180px;
+    left: 295px;
+}
+#offer_news_scrb{
+    position: absolute;
+    bottom: 140px;
+    left: 295px;
+    font-family:'Trebuchet MS';
+    font-style: bold;
+}
+input[type="email"]{
+    border-radius: 50px;
+    width: 250px;
+    padding:20px;
+    position: relative;
+    left: 630px;
+    bottom: 200px;
+    border: white;
+    font-family:'Trebuchet MS';
+}
+#offer_button_shop{
+    border-radius: 50px;
+    padding:20px;
+    width: 150px;
+    position: relative;
+    left: 530px;
+    bottom: 200px;
+    background-color: rgb(42, 135, 241);
+    border: 1px solid rgb(42, 135, 241);
+    color: white;
+    font-family:'Trebuchet MS';
+}
+/* Latest offer Ends Here */
+
+.latest_offer_footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    margin: 150px;
+    
+}
+.latest_offer_footer_font1{
+    grid-template-columns: repeat(1,3fr);
+    font-family:'Trebuchet MS';
+}
+/*  Latest Offer Footer Ends Here */
+
+/* Gallery Starts Here  */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.gallery>img{
+    width: 100%;
+    height: 400px;
+}
+/* Gallery Ends Here  */
+/* Footer Starts Here */
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 70px;
+    font-family:'Trebuchet MS';
+    padding: 10px;
+    color: gray;
+}
+img[alt="AIT_logo_footer"]{
+    width: 80%;
+}
+footer>section{
+    grid-template-columns: repeat(1,2fr);
+}
+.ait_footer_li{
+    list-style: none;
+}
+/* Footer Ends Here */
+
+/* Footer About Starts Here */
+.Copyright{
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: 7% 2% 30% 2% 2% 35% 3% 3% 3% 3% ;
+    font-family:'Trebuchet MS';
+    color: gray;
+}
+#fa-heart, #fa-Mur{
+    color: blue;
+}
+#fa-copyright{
+    position: relative;
+    top: 18px;
+}
+#fa-heart{
+    position: relative;
+    top: 18px;
+    left: 5px;
+}
+h4[class="ait_footer_h4"]{
+    color: black;
+}
+
+/* Footer About Ends Here */
+
+
+/* Media Queries */
+
+First Header Starts
+@media only screen and (min-width: 400px) and (max-width: 1400px){
+    
+    .First-header_nav{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width:800px) and (max-width: 1400px) {
+    .Second_Header{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (min-width:300px) and (max-width: 800px) {
+    .Second_Header{
+        grid-template-columns: 20% 40% 40%;
+        
+    }
+    
+}
+@media screen and (min-width:300px) and (max-width: 1400px){
+    .Second_Header_ul2{
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+}
